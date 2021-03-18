@@ -1,0 +1,17 @@
+body {
+  font-family: Helvetica;
+  background: #00ffcc;
+}
+h1 {
+  color: #fee975;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.match-header,
+.matches {
+  text-align: center;
+}
