@@ -11,6 +11,25 @@ h1 {
   justify-content: space-around;
 }
 
+.students,
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.students h1,
+.companies h1 {
+    width: 100%;
+}
+
+p {
+	background-color: #cc00cc;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
 .match-header,
 .matches {
   text-align: center;
