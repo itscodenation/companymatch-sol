@@ -73,7 +73,7 @@ function displayCompanies() {
 function getMatch(student) {
   let company = getRandomCompany();
   let match = `${student} was hired by ${company}.`;
-  return `<p>${match}</p>`;
+  return `<p class="match">${match}</p>`;
 }
 
 function displayMatch(match) {
